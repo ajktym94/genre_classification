@@ -4,4 +4,4 @@ yes | conda install pytorch torchvision torchaudio torchtext cudatoolkit=11.3 -c
 yes | conda install ipykernel pandas seaborn
 ipython kernel install --user --name=myenv
 yes | conda install -c anaconda scikit-learn gensim
-yes | conda install -c conda-forge matplotlib ipywidgets
+yes | conda install -c conda-forge matplotlib ipywidgets mlflow
